@@ -13,6 +13,6 @@ ADD ghc-7.6.3 /opt/ghc-7.6.3
 RUN /bin/bash /opt/install.sh
 RUN mkdir -p /opt/haskell && cd /opt/haskell
 
-ENV PATH=/opt/ghc/bin:$PATH
+ENV PATH /opt/ghc/bin:$PATH
 
 CMD ["/bin/bash"]
