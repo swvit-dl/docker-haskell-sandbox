@@ -1,2 +1,5 @@
+*.sublime-project
+*.sublime-workspace
 ghc-7.6.3-x86_64-unknown-linux.tar.bz2
 ghc-7.6.3
+
